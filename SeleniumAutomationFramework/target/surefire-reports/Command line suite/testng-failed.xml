@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.esha.test1.VerifyPageLinkTest">
+        <methods>
+          <include name="verifyHomepage"/>
+          <include name="verifyloginpage"/>
+          <include name="verifysignuplast"/>
+          <include name="verifySignUpPage"/>
+          <include name="start"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.esha.test1.VerifyPageLinkTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
